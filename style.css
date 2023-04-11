@@ -1,0 +1,75 @@
+body
+{
+    background-image: url("tlo2.png");
+    font-size: 20px;
+    background-size: cover;
+}
+#container
+{
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    -webkit-box-shadow: 3px 3px 30px 7px rgba(171, 194, 218, 1);
+    -moz-box-shadow: 3px 3px 30px 7px rgba(171, 194, 218, 1);
+    box-shadow: 3px 3px 30px 7px rgba(171, 194, 218, 1);
+}
+input[type=text],
+input[type=password]
+{
+    width: 300px;
+    background-color: #EAF1F7;
+    color: #4b789f;
+    border: 2px solid #D7E5F0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+input[type=submit]
+{
+    width: 300px;
+    background-color: #fa5bd7;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+input[type=submit]:hover
+{
+    background-color: #e94ac6;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(171, 194, 218, 1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(171, 194, 218, 1);
+    box-shadow: 0px 0px 10px 2px rgba(171, 194, 218, 1);
+    border: 2px solid #fa87e1;
+    background-color: #ffe1f9;
+    color: #e94ac6;
+}
+input[type=submit]:focus
+{
+    -webkit-box-shadow: 0px 0px 10px 2px #e94ac6;
+    -moz-box-shadow: 0px 0px 10px 2px #e94ac6;
+    box-shadow: 0px 0px 10px 2px #e94ac6;
+}
+input::-webkit-input-placeholder
+{
+    color: #4b789f;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #fa87e1;
+}
